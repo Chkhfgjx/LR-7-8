@@ -7,7 +7,7 @@ begin
   writeln('Первый символ строки ',a[1]);
   writeln('Последний символ строки ',a[length(a)]);
   
-  if length(a) mod 2 =1 then
+  if length(a) mod 2 <> 1 then
     writeln('Средний символ строки ',a[(length(a) div 2)+1])
   else
     writeln('Среднего символа строки нет');
