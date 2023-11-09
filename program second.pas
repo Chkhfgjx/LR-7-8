@@ -10,5 +10,5 @@ begin
   end;
   write(a);
   writeln();
-  writeln('Количество символов в строке ',length(a));
+  writeln('Количество символов в строке ',length(a)*3+2*2);
 end.
